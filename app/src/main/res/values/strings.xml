@@ -5,8 +5,10 @@
     <string name="google_android_map_api_key_v2_none2">AIzaSyCTDvoDP6xZxoyfkYl7j_1t6TbeOesyGB8</string>
 
 
-    <string name="facebook_app_id">1147909272233739</string>
-    <string name="fb_login_protocol_scheme">fb1147909272233739</string>
+    <string name="facebook_app_id">336582365157960</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
 
     <string name="app_name">Zoom</string>
     <string name="splash_app_title">Sample Video Chat Java</string>

@@ -1,6 +1,5 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.application'
+
 
 android {
     compileSdk 32
@@ -25,10 +24,17 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
-
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    def nav_version = "2.4.1"
+def qbSdkVersion = '3.9.2'
+    def glideVersion = '3.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
@@ -38,4 +44,26 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.tbuonomo:dotsindicator:4.2'
+    implementation platform('com.google.firebase:firebase-bom:29.3.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
+    implementation "com.quickblox:quickblox-android-sdk-videochat-webrtc:$qbSdkVersion"
+    implementation "com.quickblox:quickblox-android-sdk-messages:$qbSdkVersion"
+    implementation "com.quickblox:quickblox-android-sdk-chat:$qbSdkVersion"
+    implementation "com.quickblox:quickblox-android-sdk-content:$qbSdkVersion"
+    implementation 'io.agora.rtc:full-sdk:3.1.0'
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'com.github.orangegangsters:swipy:1.2.3@aar'
+    implementation 'com.github.johnkil.android-robototextview:robototextview:4.0.0'
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    implementation'com.timehop.stickyheadersrecyclerview:library:0.4.3@aar'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
 }
+apply plugin: 'com.google.gms.google-services'

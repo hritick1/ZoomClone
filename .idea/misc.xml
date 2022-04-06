@@ -3,9 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/activity_call.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/activity_chat.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/activity_home.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/activity_splash.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/activity_welcome.xml" value="0.264" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/adapter_user.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/fragment_dashboard.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/fragment_home.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/fragment_meetChat.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/fragment_settings.xml" value="0.2713541666666667" />
         <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/layout/fragment_welcom_viewpager.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Hritick Jha/AndroidStudioProjects/ZoomClone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2713541666666667" />
       </map>
     </option>
   </component>

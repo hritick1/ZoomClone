@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.zoomclone.LoginActivity;
 import com.example.zoomclone.R;
 import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator;
 
@@ -52,14 +54,22 @@ private SpringDotsIndicator springDotsIndicator;
     public void onClick(View view) {
         switch(view.getId()){
             case R.id.signInView:
-
+                navigateToSignIn(true);
                     break;
             case R.id.signUpView:
+                navigateToSignIn(false);
 
                     break;
             case R.id.btnJoinMeeting:
 
                     break;
         }
+    }
+
+    private void navigateToSignIn(boolean isSignIn) {
+        Intent intent=new Intent(this, LoginActivity.class);
+        intent.putExtra("isSignIn",isSignIn);
+        startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
     }
 }
